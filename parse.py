@@ -31,5 +31,5 @@ def main():
     new_data = parse(MY_FILE, ",")
 
     #data output
-    print new_data
+    print(new_data)
 
