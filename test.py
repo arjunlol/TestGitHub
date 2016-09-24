@@ -25,11 +25,11 @@ def parse(raw_file, delimiter):
     opened_file.close()
     return parsed_data
 
-
-def main():
-    #call parse function give it necessary parameters
-    new_data = parse(MY_FILE, ",")
-
-    #data output
-    print new_data
-
+#
+# def main():
+#     #call parse function give it necessary parameters
+#     new_data = parse(MY_FILE, ",")
+#
+#     #data output
+#     print(new_data)
+#
